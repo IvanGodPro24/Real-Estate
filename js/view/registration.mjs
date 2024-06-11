@@ -11,9 +11,9 @@ btnSign.addEventListener('click', (event) => {
         const password = inputPassword.value;
 
         if (username === 'Penwiman' && password === 'Z0jj3wDuXFzvMMnVQiC0Z0jj3wDuXFzvMMnVQiC0') {
-            redirection('index.html', username, password);
+            redirection('welcome.html', username, password);
         } else {
-            redirection('index-for-guest.html', username, password);
+            redirection('welcome-for-guest.html', username, password);
         }
     }
 });
